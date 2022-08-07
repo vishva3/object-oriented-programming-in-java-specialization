@@ -30,7 +30,7 @@ public class Part2 {
                 return "";
             }
         // Find the substring between startCodon and stopCodon inclusive
-        result = dna.substring(startIndex, stopIndex + 3);
+        String result = dna.substring(startIndex, stopIndex + 3);
             // If the length of the substring between startCodon and stopCodon is a multiple of 3
             if (result.length() % 3 == 0) {
                 // Then return the substring that starts with startCodon and ends with that stopCodon
